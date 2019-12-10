@@ -13,7 +13,7 @@
   "author": "jane-doe",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.9.8"
+    "express": "^4.17.1"
   },
   "engines": {
     "node": "10.x"
