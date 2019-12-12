@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Image Block</title>
+		<meta charset="utf-8">
+		<title>Text over Image Block</title>
+		
+		<link rel="stylesheet" type="text/css" href="/salesforce-lightning-design-system.css">
 	</head>
 	<body>
 		<article class="slds-card">
@@ -21,13 +24,13 @@
 			<div class="slds-form-element">
 				<label class="slds-form-element__label" for="text-input-id-0">Image URL</label>
 				<div class="slds-form-element__control">
-					<input type="text" id="text-input-id-0" class="slds-input" placeholder="Your Google Maps API key" />
+					<input type="text" id="image" class="slds-input" placeholder="Your Image URL" />
 				</div>
 			</div>
 			<div class="slds-form-element">
 				<label class="slds-form-element__label" for="text-input-id-1">Image Text</label>
 				<div class="slds-form-element__control">
-					<input type="text" id="text-input-id-1" class="slds-input" placeholder="e.g. Salesforce Tower Indianapolis" />
+					<input type="text" id="image_text" class="slds-input" placeholder="e.g. Michelin Sports Pilot 2" />
 				</div>
 			</div>
 			<div class="slds-form-element">
@@ -56,12 +59,18 @@
 					</div>
 				</div>
 			</div>
+			<div class="slds-form-element">
+				<label class="slds-form-element__label" for="input-id-01">Image That will display</label>
+				<span id="showImage"></span>
+				</br>
+			</div>
+			<br>
+			<div class="slds-form-element">
+				<label class="slds-form-element__label" for="input-id-01">Response:</label>
+				<p id="currentResponse"></p>
+				</br>
+			</div>
 			
-			<!--<div class="slds-form-element">
-				<label class="slds-form-element__label" for="text-input-id-2">Link Wrap</label>
-				<div class="slds-form-element__control">
-					<input type="text" id="text-input-id-2" class="slds-input" placeholder="Optional url for Link wrap" />
-				</div>-->
 			</div>
 		</div>
   </div>
