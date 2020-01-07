@@ -30,7 +30,30 @@
 			<div class="slds-form-element">
 				<label class="slds-form-element__label" for="text-input-id-1">Image Text</label>
 				<div class="slds-form-element__control">
-					<input type="text" id="image_text" class="slds-input" placeholder="e.g. Michelin Sports Pilot 2" />
+					<input type="text" id="imgText" class="slds-input" placeholder="e.g. Michelin Sports Pilot 2" />
+				</div>
+			</div>
+			<div class="slds-form-element">
+				<label class="slds-form-element__label" for="text-input-id-2">Text Color</label>
+				<div class="slds-form-element__control">
+					<div class="slds-color-picker">
+						<!--	<input type="color" id="textColor" class="slds-input" placeholder="e.g. red or #FF0000" /> -->
+							<input type="text" id="textColorVal" class="slds-input" placeholder="e.g. red or #FF0000"  />
+					</div>
+					
+				</div>
+			</div>
+			<div class="slds-form-element">
+				<label class="slds-form-element__label" for="text-input-id-3">Text Alignment</label>
+				<div class="slds-form-element__control">
+				 <div class="slds-select_container">
+					<select class="slds-select" id="textAlignment">
+						<option value="">Please select</option>
+						<option value="right">Right</option>
+						<option value="left">Left</option>
+						<option value="center">Center</option>
+					</select>
+				 </div>
 				</div>
 			</div>
 			<div class="slds-form-element">
@@ -41,7 +64,7 @@
 				</label>
 				<div class="slds-form-element__control">
 					<div class="slds-slider">
-						<input type="range" id="slider-id-01" class="slds-slider__range" value="600" min="100" max="800" />
+						<input type="range" id="imgWidth" class="slds-slider__range" value="600" min="100" max="800" />
 						<span class="slds-slider__value" id="slider-id-01-val" aria-hidden="true">600</span>
 					</div>
 				</div>
@@ -54,7 +77,7 @@
 				</label>
 				<div class="slds-form-element__control">
 					<div class="slds-slider">
-						<input type="range" id="slider-id-02" class="slds-slider__range" value="300" min="100" max="600" />
+						<input type="range" id="imgHeight" class="slds-slider__range" value="300" min="100" max="600" />
 						<span class="slds-slider__value" id="slider-id-02-val" aria-hidden="true">300</span>
 					</div>
 				</div>
@@ -77,6 +100,6 @@
   <footer class="slds-card__footer"></footer>
 </article>
 		
-		<script src="main.js"></script>
+		<script src="/main.js"></script>
 	</body>
 </html>
