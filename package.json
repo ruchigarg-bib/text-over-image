@@ -16,7 +16,7 @@
     "@salesforce-ux/design-system": "^2.10.2",
     "blocksdk": "^1.2.0",
     "css-loader": "^3.3.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "file-loader": "^5.0.2",
     "jquery": "^3.4.1",
     "style-loader": "^1.0.1",
